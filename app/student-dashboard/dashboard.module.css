@@ -1,0 +1,17 @@
+.courses_table td{
+  padding: 10px;
+}
+.courses_table th{
+  padding: 10px;
+}
+
+.courses_table tr{
+    border-bottom: 1px solid gray;
+}
+
+.courses_table thead tr{
+    border-bottom: none;
+}
+.courses_table{
+    overflow-x:auto;
+}

@@ -1,0 +1,30 @@
+.list_div{
+    overflow-y:auto;
+}
+/* WebKit browsers (Chrome, Edge, Safari) */
+.list_div::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list_div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.list_div::-webkit-scrollbar-thumb {
+  background: #c0c4e0;
+  border-radius: 10px;
+}
+
+.list_div::-webkit-scrollbar-thumb:hover {
+  background: #d5d9f5;
+}
+
+.list_div::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Firefox */
+.list_div {
+  scrollbar-width: thin;
+  scrollbar-color: #003537 transparent;
+}

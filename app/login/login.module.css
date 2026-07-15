@@ -1,0 +1,6 @@
+.login_background{
+    background-image: url('../../public/login/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}

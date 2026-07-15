@@ -1,0 +1,6 @@
+.signup_hero{
+    background-image: url('/signup/background.png');
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
