@@ -47,7 +47,8 @@ function CourseDetails({ params }) {
             <div className="grid grid-cols-1 sm:grid-cols-12 px-4 gap-4">
                 <div className="lg:col-span-10">
                     <Image
-                        src={`http://localhost:8080/Images/${allDetail.banner}`}
+                        // src={`http://localhost:8080/Images/${allDetail.banner}`}
+                        src={`https://institute-backend-production.up.railway.app/Images/${allDetail.banner}`}
                         width={500}
                         height={500}
                         alt="Programming code abstract background"

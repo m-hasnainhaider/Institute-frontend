@@ -190,7 +190,8 @@ function Courses() {
                                                 {value.heroText}
                                             </h6>
                                             <Image
-                                                src={`http://localhost:8080/Images/${value.image}`}
+                                                // src={`http://localhost:8080/Images/${value.image}`}
+                                                src={`https://institute-backend-production.up.railway.app/Images/${value.image}`}
                                                 alt='card_Image'
                                                 fill
                                             />
