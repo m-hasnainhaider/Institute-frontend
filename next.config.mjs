@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // 🌟 FIX: Allow Next.js to process images hosted on your local computer's private IP
-    dangerouslyAllowLocalIP: true, 
-    
     remotePatterns: [
       {
         protocol: 'http',
@@ -13,7 +10,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'api.yourdomain.com', 
+        hostname: 'institute-backend-production.up.railway.app',
         pathname: '/Images/**',
       },
     ],
